@@ -7,8 +7,17 @@ div.parallax-container img {
 	max-width: 1000px
 }
 
+.brand-logo {
+	margin-left: 15px;
+}
+
+ul.right {
+	margin-right: 15px;
+}
+
 #about {
 	padding-top: 50px;
+	padding-bottom: 30px;
 }
 
 #firstName {
