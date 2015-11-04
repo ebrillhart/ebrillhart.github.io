@@ -1,0 +1,32 @@
+html {
+    font-family: Quicksand, Calibri, Trebuchet, sans-serif;
+}
+
+div.parallax-container img {
+	max-height: 1000px;
+	max-width: 1000px
+}
+
+#about {
+	padding-top: 50px;
+}
+
+#firstName {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#lastName {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+#imgCon {
+	margin-right: 20px;
+}
+
+h6 a {
+	color: black;
+	font-size: 2em;
+	letter-spacing: 10px;
+}
