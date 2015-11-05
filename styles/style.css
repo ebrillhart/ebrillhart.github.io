@@ -7,6 +7,10 @@ div.parallax-container img {
 	max-width: 1000px
 }
 
+nav, footer.page-footer {
+	background-color: #1a237e;
+}
+
 .brand-logo {
 	margin-left: 15px;
 }
