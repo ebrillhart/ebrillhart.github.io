@@ -10,6 +10,10 @@ nav, footer.page-footer {
     margin-left: 15px;
 }
 
+div.modal-links a {
+	color: #1a237e;
+}
+
 ul.right {
     margin-right: 15px;
 }
@@ -34,6 +38,12 @@ ul.right {
     margin-top: 0px;
 }
 
+#tsInfo, #poInfo {
+	height: 20px;
+	width: 20px;
+	background-color: black;
+}
+
 #imgCon {
     margin-right: 20px;
 }
@@ -50,8 +60,13 @@ h5 a {
     letter-spacing: 10px;
 }
 
+h6#email {
+	color: white;
+}
+
 #trueseattleite {
-    background: url(../images/trueseattleite.jpg) no-repeat;
+    background: url(../images/trueseattleite.jpg) no-repeat center;
+    background-size: contain;
     height: 400px;
     width: 400px;
     margin-right: 10px;
@@ -59,6 +74,7 @@ h5 a {
 
 #photorganize {
     background: url(../images/photorganize.jpg) no-repeat center;
+    background-size: contain;
     height: 400px;
     width: 400px;
     margin-left: 10px;
