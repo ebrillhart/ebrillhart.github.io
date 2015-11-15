@@ -80,3 +80,11 @@ h6#email {
     width: 400px;
     margin-left: 10px;
 }
+
+#croseman {
+    background: url(../images/croseman.jpg) no-repeat center;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+    margin-right: 10px;
+}
