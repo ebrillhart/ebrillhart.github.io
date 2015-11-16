@@ -22,6 +22,12 @@ ul.right {
     margin-right: 15px;
 }
 
+#home {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    height: 650px;
+}
+
 #about {
     padding-top: 70px;
     padding-bottom: 30px;
