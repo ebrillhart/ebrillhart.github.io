@@ -1,5 +1,5 @@
 html {
-    font-family: Quicksand, Calibri, Trebuchet, sans-serif;
+    font-family: Raleway, Calibri, Trebuchet, sans-serif;
 }
 
 nav, footer.page-footer {
@@ -12,6 +12,7 @@ nav {
 
 .brand-logo {
     margin-left: 15px;
+    font-weight: 300;
 }
 
 div.modal-links a {
@@ -20,6 +21,14 @@ div.modal-links a {
 
 ul.right {
     margin-right: 15px;
+}
+
+.head {
+    font-weight: 300;
+}
+
+ul li a {
+    font-weight: 300;
 }
 
 #home {
