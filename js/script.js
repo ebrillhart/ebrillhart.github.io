@@ -1,4 +1,25 @@
 $(document).ready(function() {
     $('.parallax').parallax();
     $('.modal-trigger').leanModal();
+
+    // hide and show True Seattleite Info
+    $('#trueseattleite').hover(function() {
+        $(this).find('#TSinfo').show();
+    }, function () {
+    	$(this).find('#TSinfo').hide();
+    });
+
+    // hide and show photorganize
+    $('#photorganize').hover(function() {
+        $(this).find('#POinfo').show();
+    }, function () {
+    	$(this).find('#POinfo').hide();
+    });
+
+    // hide and show CRP
+    $('#croseman').hover(function() {
+        $(this).find('#CRPinfo').show();
+    }, function () {
+    	$(this).find('#CRPinfo').hide();
+    });
 });

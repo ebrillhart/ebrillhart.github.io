@@ -3,7 +3,11 @@ html {
 }
 
 nav, footer.page-footer {
-    background-color: #1a237e;
+    background-color: #15254A;
+}
+
+nav {
+    box-shadow: none;
 }
 
 .brand-logo {
@@ -24,6 +28,10 @@ ul.right {
     height: 650px;
 }
 
+nav ul a:hover {
+    background-color: #345CB7;
+}
+
 #portfolio {
 	padding-bottom: 30px;
 	padding-top: 50px;
@@ -32,6 +40,16 @@ ul.right {
 #firstName {
     padding-bottom: 0px;
     margin-bottom: 0px;
+}
+
+.btn {
+    box-shadow: none;
+    background-color: #345CB7;
+}
+
+.btn:hover {
+    background-color: #4880FF;
+    box-shadow: none;
 }
 
 #lastName {
@@ -66,7 +84,7 @@ h6#email {
 }
 
 #trueseattleite {
-    background: url(../images/trueseattleite.jpg) no-repeat center;
+    background: url(../images/seattle2.jpg) no-repeat center;
     background-size: contain;
     height: 400px;
     width: 400px;
@@ -74,7 +92,7 @@ h6#email {
 }
 
 #photorganize {
-    background: url(../images/photorganize.jpg) no-repeat center;
+    background: url(../images/img1.jpg) no-repeat center;
     background-size: contain;
     height: 400px;
     width: 400px;
@@ -82,9 +100,21 @@ h6#email {
 }
 
 #croseman {
-    background: url(../images/croseman.jpg) no-repeat center;
+    background: url(../images/backgroundimg.jpg) no-repeat center;
     background-size: contain;
     height: 400px;
     width: 400px;
     margin-right: 10px;
+}
+
+#TSinfo, #POinfo {
+    margin-top: 90px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid white;
+}
+
+#CRPinfo {
+    margin-top: 85px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid white;
 }
