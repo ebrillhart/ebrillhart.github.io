@@ -122,6 +122,14 @@ h6#email {
     margin-right: 10px;
 }
 
+#UTA {
+    background: url(../images/flag.JPG) no-repeat center;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+    margin-left: 10px;
+}
+
 #TSinfo, #POinfo {
     margin-top: 90px;
     background-color: rgba(255, 255, 255, 0.9);
@@ -130,6 +138,12 @@ h6#email {
 
 #CRPinfo {
     margin-top: 85px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid white;
+}
+
+#UTAinfo {
+    margin-top: 76px;
     background-color: rgba(255, 255, 255, 0.9);
     border: 1px solid white;
 }

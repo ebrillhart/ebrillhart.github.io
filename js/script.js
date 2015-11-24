@@ -22,4 +22,11 @@ $(document).ready(function() {
     }, function () {
     	$(this).find('#CRPinfo').hide();
     });
+
+    // hide and show UTA
+    $('#UTA').hover(function() {
+        $(this).find('#UTAinfo').show();
+    }, function () {
+        $(this).find('#UTAinfo').hide();
+    });
 });
