@@ -29,4 +29,11 @@ $(document).ready(function() {
     }, function () {
         $(this).find('#UTAinfo').hide();
     });
+
+    // hide and show feeding seattle
+    $('#feedingseattle').hover(function() {
+        $(this).find('#FSinfo').show();
+    }, function () {
+        $(this).find('#FSinfo').hide();
+    });
 });
