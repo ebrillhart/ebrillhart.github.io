@@ -122,6 +122,14 @@ h6#email {
     margin-right: 10px;
 }
 
+#croseman {
+    background: url(../images/feedingseattle.jpg) no-repeat center;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+    margin-right: 10px;
+}
+
 #UTA {
     background: url(../images/flag.jpg) no-repeat center;
     background-size: contain;
@@ -130,7 +138,7 @@ h6#email {
     margin-left: 10px;
 }
 
-#TSinfo, #POinfo {
+#TSinfo, #POinfo, #FSinfo {
     margin-top: 90px;
     background-color: rgba(255, 255, 255, 0.9);
     border: 1px solid white;
