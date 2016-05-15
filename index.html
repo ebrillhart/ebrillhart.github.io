@@ -1,176 +1,23 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="icon" href="images/favicon-96x96.png" type="image/x-icon">
-        <title>Emma Brillhart</title>
-        <!-- Compiled and minified CSS -->
-        <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500' rel='stylesheet' type='text/css'>
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.0/css/materialize.min.css">
-            <link rel="stylesheet" type="text/css" href="styles/style.css">
-        </head>
-        <body>
-            <!-- ****** -->
-            <!-- navbar -->
-            <!-- ****** -->
-            <div class="navbar-fixed">
-                <nav>
-                    <div class="nav-wrapper">
-                        <a href="#home" class="brand-logo">Emma Brillhart</a>
-                        <ul class="right">
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-            <!-- ***** -->
-            <!-- home -->
-            <!-- ***** -->
-            <div id="home">
-                <div class="container">
-                    <div class="row valign-wrapper">
-                        <div class="col s5 m5 l5" id="imgCon">
-                            <img class="responsive-img circle left vertical-align" src="images/ebrillhart.jpg" alt="Photo of Emma Brillhart">
-                        </div>
-                        <div class="col s7 m7 l7">
-                            <h1 class="head"id="firstName">Emma</h1>
-                            <h1 class="head" id="lastName">Brillhart</h1>
-                            <h6>Web Developer | General Assembly WDI Fall '15 | Seattle, WA</h6>
-                            <h6><a href="https://github.com/ebrillhart"><i class="fa fa-github"></i></a> <a href="http://instagram.com/ebrillhart/"><i class="fa fa-instagram"></i></a> <a href="https://www.linkedin.com/in/emmabrillhart"><i class="fa fa-linkedin-square"></i></a> <a href="https://angel.co/emma-brillhart"><i class="fa fa-angellist"></i></a> <a href="https://twitter.com/emmabrillhart"><i class="fa fa-twitter"></i></a></h6>
-                        </div>
-                    </div>
-                    <div class="row center-align">
-                        <a class="btn center-align" href="#portfolio">View Portfolio</a>
-                    </div>
-                </div>
-            </div>
-            <!-- ***** -->
-            <!-- about -->
-            <!-- ***** -->
-            <div id="about">
-                <div class="container">
-                    <div class="row">
-                    <h1 class="head">About</h1>
-                    </div>
-                    <div class="row valign-wrapper">
-                        <div class="col s7 m7 l7">
-                            <p>I was born and raised in Seattle, and graduated from Scripps College in Claremont, CA with a BA in Politics and IR. After spending a year working at a law firm in Los Angeles and realizing that a legal career was not, in fact, for me, I started to dabble with coding and decided to take General Assembly's Web Development Immersive Course during Autumn 2015.</p>
-                            <p>When I'm not writing code, you can find me discussing recent developments in American and international politics, geeking out over articles about driverless car tech, and taking pictures of my dog (Exhibit A to the right).</p>
-                        </div>
-                        <div class="col s5 m5 l5">
-                            <img class="responsive-img circle right vertical-align" src="images/milo.jpg" alt="Photo of Emma's dog, Milo">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ********* -->
-            <!-- portfolio -->
-            <!-- ********* -->
-            <div id="portfolio">
-                <div class="container">
-                    <div class="row">
-                        <h1 class="head">Portfolio</h1>
-                    </div>
-                    <!-- Row one (projects 1 and 2) -->
-                    <div class="row valign-wrapper">
-                        <!-- Project 1 -->
-                        <div class="col s6 m6 l6 left circle center-align" id="trueseattleite">
-                            <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1 center-align" id="TSinfo" hidden>
-                                <h4>A True Seattleite</h4>
-                                <p>An interactive user v. computer front-end board game. Built from scratch with HTML5/CSS3, Bootstrap, JavaScript, and jQuery.</p>
-                                <div class="row">
-                                    <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1 modal-links">
-                                        <a class="left" href="https://github.com/ebrillhart/a-true-seattleite">Source Code</a>
-                                        <a class="right" href="http://ebrillhart.github.io/a-true-seattleite/">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Project 2 -->
-                        <div class="col s6 m6 l6 left circle center-align" id="photorganize">
-                            <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1 center-align" id="POinfo" hidden>
-                                <h4>photOrganize</h4>
-                                <p>A full-stack app for Instagram built with Node.js/Express.js, Materialize CSS, the Instagram API, Sequelize, and OAuth with Passport.</p>
-                                <div class="row">
-                                    <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1 modal-links">
-                                        <a class="left" href="https://github.com/ebrillhart/photorganize">Source Code</a>
-                                        <a class="right" href="https://photorganize.herokuapp.com/">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>    
-                    <!-- Row two (projects 3 and 4) -->
-                    <div class="row valign-wrapper">
-                        <!-- Project 3 -->
-                        <div class="col s6 m6 l6 left circle center-align" id="croseman">
-                            <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1 center-align" id="CRPinfo" hidden>
-                                <h5>Catherine Roseman Photography</h5>
-                                <p>A portfolio site for a freelance photographer built with jQuery/JavaScript and utilizing lettering.js.</p>
-                                <div class="row">
-                                    <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1 modal-links">
-                                        <a class="left" href="https://github.com/ebrillhart/catherine-roseman-photography">Source Code</a>
-                                        <a class="right" href="http://catherinerosemanphotography.bitballoon.com/">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Project 4 -->
-                        <div class="col s6 m6 l6 left circle center-align" id="UTA">
-                            <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1 center-align" id="UTAinfo" hidden>
-                                <h5>Ultimate True American</h5>
-                                <p>A full-stack Ruby on Rails app that facilitates the playing of a drinking game inspired by the show "New Girl". Worked with a group as Project Manager, Repository Maintainer, and Front-End developer.</p>
-                                <div class="row">
-                                    <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1 modal-links">
-                                        <a class="left" href="https://github.com/ebrillhart/ultimate-true-american">Source Code</a>
-                                        <a class="right" href="https://ultimate-true-american.herokuapp.com/">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>    
-                    <!-- Row three (projects 5 and 6) -->
-                    <div class="row valign-wrapper">
-                        <!-- Project 5 -->
-                        <div class="col s6 m6 l6 left circle center-align" id="feedingseattle">
-                            <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1 center-align" id="FSinfo" hidden>
-                                <h5>Feeding Seattle</h5>
-                                <p>An AngularJS app that pulls data from Socrata Open Data to provide a comprehensive list of meal programs for low-income and homeless individuals in Seattle.</p>
-                                <div class="row">
-                                    <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1 modal-links">
-                                        <a class="left" href="https://github.com/ebrillhart/feedingseattle">Source Code</a>
-                                        <a class="right" href="https://feedingseattle.herokuapp.com/">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ****** -->
-        <!-- footer -->
-        <!-- ****** -->
-        <footer class="page-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col l6 s12">
-                        <h5 class="white-text">Contact</h5>
-                        <h5><a href="https://github.com/ebrillhart"><i class="fa fa-github"></i></a> <a href="http://instagram.com/ebrillhart/"><i class="fa fa-instagram"></i></a> <a href="https://www.linkedin.com/in/emmabrillhart"><i class="fa fa-linkedin-square"></i></a> <a href="https://angel.co/emma-brillhart"><i class="fa fa-angellist"></i></a> <a href="https://twitter.com/emmabrillhart"><i class="fa fa-twitter"></i></a></h5>
-                        <h6 id="email">emma.brillhart@gmail.com</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-copyright">
-                <div class="container">
-                    <h6>&copy; Copyright 2015 Emma Brillhart.</h6>
-                </div>
-            </div>
-        </footer>
-        <!-- js script & jquery -->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.0/js/materialize.min.js"></script>
-        <script type="text/javascript" src="js/script.js"></script>
-    </body>
-</html>
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
