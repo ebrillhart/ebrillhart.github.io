@@ -15,10 +15,30 @@ html {
     display: inline-block;
 }
 
+#scrollNav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+#navLogo {
+    font-family: Merriweather, serif !important;
+    padding-left: 20px;
+}
+
+#menuItems {
+    font-family: Merriweather, serif !important;
+}
+
+.hiddenClass {
+    display: none;
+}
+
 #siteMenu {
     font-family: Merriweather, serif !important;
     margin: 4% auto 0;
-    width: 50%;
+    width: 100%;
     text-align: center;
 }
 
@@ -37,7 +57,7 @@ html {
 }
 
 #menuItems li a:hover, .socialIconDiv a:hover, #emailAddress a:hover {
-    color: #00247F
+    color: #00247F;
 }
 
 .sectionHeader {

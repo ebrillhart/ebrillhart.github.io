@@ -1,18 +1,24 @@
 $(document).ready(function() {
 
-    var wrap = $("#fullPage");
+    stickyHeader();
 
-    wrap.on("scroll", function(e) {
 
-      if (this.scrollTop > 147) {
-        // wrap.addClass("fix-search");
-        $("#scrollNav").show();
-      } else {
-        // wrap.removeClass("fix-search");
-        $("scrollNav").hide();
-      }
-      
+function stickyHeader() {
+    window.addEventListener('scroll', function(e){
+        var distanceY = window.pageYOffset || document.documentElement.scrollTop;
+        var shrink = 75;
+
+        if (distanceY > shrink) {
+           $("#topNav").fadeOut(200);
+           $("#scrollNav").removeClass("hiddenClass");
+           $("#scrollNav").fadeIn(200);
+        } else {
+           $("#topNav").fadeIn(200);
+           $("#scrollNav").addClass("hiddenClass");
+           $("#scrollNav").fadeOut(200);
+        }
     });
+}
 
     $('.parallax').parallax();
     $('.modal-trigger').leanModal();
