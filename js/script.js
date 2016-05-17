@@ -24,38 +24,66 @@ function stickyHeader() {
     $('.modal-trigger').leanModal();
 
     // hide and show True Seattleite Info
-    $('#trueseattleite').hover(function() {
-        $(this).find('#TSinfo').show();
+    $('#gugoDiv').hover(function() {
+        $(this).find('#gugoLabel').removeClass("hiddenLabel");
+        $(this).find('#gugoLabel').addClass("projectLabel");
     }, function () {
-    	$(this).find('#TSinfo').hide();
+    	$(this).find('#gugoLabel').addClass("hiddenLabel");
+        $(this).find('#gugoLabel').removeClass("projectLabel");
     });
 
     // hide and show photorganize
-    $('#photorganize').hover(function() {
-        $(this).find('#POinfo').show();
+    $('#crPhotoDiv').hover(function() {
+        $(this).find('#crLabel').removeClass("hiddenLabel");
+        $(this).find('#crLabel').addClass("projectLabel");
     }, function () {
-    	$(this).find('#POinfo').hide();
+    	$(this).find('#crLabel').addClass("hiddenLabel");
+        $(this).find('#crLabel').removeClass("projectLabel");
     });
 
-    // hide and show CRP
-    $('#croseman').hover(function() {
-        $(this).find('#CRPinfo').show();
+    // hide and show photorganize
+    $('#feedingSeattleDiv').hover(function() {
+        $(this).find('#feedingLabel').removeClass("hiddenLabel");
+        $(this).find('#feedingLabel').addClass("projectLabel");
     }, function () {
-    	$(this).find('#CRPinfo').hide();
+        $(this).find('#feedingLabel').addClass("hiddenLabel");
+        $(this).find('#feedingLabel').removeClass("projectLabel");
     });
 
-    // hide and show UTA
-    $('#UTA').hover(function() {
-        $(this).find('#UTAinfo').show();
+    // hide and show photorganize
+    $('#cLinkDiv').hover(function() {
+        $(this).find('#cLinkLabel').removeClass("hiddenLabel");
+        $(this).find('#cLinkLabel').addClass("projectLabel");
     }, function () {
-        $(this).find('#UTAinfo').hide();
+        $(this).find('#cLinkLabel').addClass("hiddenLabel");
+        $(this).find('#cLinkLabel').removeClass("projectLabel");
     });
 
-    // hide and show feeding seattle
-    $('#feedingseattle').hover(function() {
-        $(this).find('#FSinfo').show();
+    // hide and show photorganize
+    $('#photorganizeDiv').hover(function() {
+        $(this).find('#photorganizeLabel').removeClass("hiddenLabel");
+        $(this).find('#photorganizeLabel').addClass("projectLabel");
     }, function () {
-        $(this).find('#FSinfo').hide();
+        $(this).find('#photorganizeLabel').addClass("hiddenLabel");
+        $(this).find('#photorganizeLabel').removeClass("projectLabel");
+    });
+
+    // hide and show photorganize
+    $('#trueAmericanDiv').hover(function() {
+        $(this).find('#trueAmericanLabel').removeClass("hiddenLabel");
+        $(this).find('#trueAmericanLabel').addClass("projectLabel");
+    }, function () {
+        $(this).find('#trueAmericanLabel').addClass("hiddenLabel");
+        $(this).find('#trueAmericanLabel').removeClass("projectLabel");
+    });
+
+    // hide and show photorganize
+    $('#trueSeattleiteDiv').hover(function() {
+        $(this).find('#seattleiteLabel').removeClass("hiddenLabel");
+        $(this).find('#seattleiteLabel').addClass("projectLabel");
+    }, function () {
+        $(this).find('#seattleiteLabel').addClass("hiddenLabel");
+        $(this).find('#seattleiteLabel').removeClass("projectLabel");
     });
 
 });

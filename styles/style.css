@@ -64,7 +64,7 @@ html {
     font-family: Merriweather, serif !important;
 }
 
-#skillsDiv, #aboutDiv, #experienceDiv {
+#skillsDiv, #aboutDiv, #experienceDiv, #forMyself, #forOthers {
     width: 60%;
     margin: 45px auto;
 }
@@ -109,6 +109,71 @@ html {
     font-family: Merriweather, serif !important;
 }
 
-#emailAddress a {
+#emailAddress a, a {
     color: black;
+}
+
+.portfolioDiv {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 24px;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.innerDiv {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.hiddenLabel {
+    display: none;
+}
+
+.projectLabel {
+    background-color: white;
+    padding: 3px;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100px;
+    border: 1px solid #A4AAB0;
+}
+
+#gugoDiv {
+    background-image: url("../images/gugo.png");
+}
+
+#crPhotoDiv {
+    background-image: url("../images/backgroundimg.jpg");
+}
+
+#feedingSeattleDiv {
+    background-image: url("../images/feedingseattle.jpg");
+}
+
+#cLinkDiv {
+    background-image: url("../images/crimeVisual.png");
+}
+
+#photorganizeDiv {
+    background-image: url("../images/img1.JPG");
+}
+
+#trueAmericanDiv {
+    background-image: url("../images/flag.jpg");
+}
+
+#trueSeattleiteDiv {
+    background-image: url("../images/trueseattleite.jpg");
 }
