@@ -1,157 +1,94 @@
 html {
-    font-family: Raleway, Calibri, Trebuchet, sans-serif;
-}
-
-nav, footer.page-footer {
-    background-color: #15254A;
-}
-
-nav {
-    box-shadow: none;
-}
-
-.brand-logo {
-    margin-left: 15px;
+    font-family: Lato, sans-serif;
     font-weight: 300;
 }
 
-div.modal-links a {
-	color: #1a237e;
+#fullPage {
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
 
-ul.right {
-    margin-right: 15px;
+#personalPhoto {
+    width: 200px;
+    height: auto;
+    display: inline-block;
 }
 
-.head {
-    font-weight: 300;
+#siteMenu {
+    font-family: Merriweather, serif !important;
+    margin: 4% auto 0;
+    width: 50%;
+    text-align: center;
 }
 
-ul li a {
-    font-weight: 300;
+#headerTitle, #headerSubtitle {
+    text-align: center;
+    font-family: Merriweather, serif !important;
 }
 
-#home {
-    padding-top: 70px;
-    padding-bottom: 30px;
-    height: 650px;
+#menuItems li {
+    display: inline-block;
+    margin: 0 2%;
 }
 
-#about {
-    padding-top: 70px;
-    padding-bottom: 30px;
-    height: 650px;
-}
-
-nav ul a:hover {
-    background-color: #345CB7;
-}
-
-#portfolio {
-	padding-bottom: 30px;
-	padding-top: 50px;
-}
-
-#firstName {
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
-
-.btn {
-    box-shadow: none;
-    background-color: #345CB7;
-}
-
-.btn:hover {
-    background-color: #4880FF;
-    box-shadow: none;
-}
-
-#lastName {
-    padding-top: 0px;
-    margin-top: 0px;
-}
-
-#tsInfo, #poInfo {
-	height: 20px;
-	width: 20px;
-	background-color: black;
-}
-
-#imgCon {
-    margin-right: 20px;
-}
-
-h6 a {
+#menuItems li a {
     color: black;
-    font-size: 2em;
-    letter-spacing: 10px;
 }
 
-h5 a {
-	color: white;
-	font-size: 1em;
-    letter-spacing: 10px;
+#menuItems li a:hover, .socialIconDiv a:hover, #emailAddress a:hover {
+    color: #00247F
 }
 
-h6#email {
-	color: white;
+.sectionHeader {
+    font-family: Merriweather, serif !important;
 }
 
-#trueseattleite {
-    background: url(../images/seattle2.JPG) no-repeat center;
-    background-size: contain;
-    height: 400px;
-    width: 400px;
-    margin-right: 10px;
+#skillsDiv, #aboutDiv, #experienceDiv {
+    width: 60%;
+    margin: 45px auto;
 }
 
-#photorganize {
-    background: url(../images/img1.JPG) no-repeat center;
-    background-size: contain;
-    height: 400px;
-    width: 400px;
-    margin-left: 10px;
+#aboutText {
+    display: inline-block;
+    margin-left: 2%;
+    width: 70%;
 }
 
-#croseman {
-    background: url(../images/backgroundimg.jpg) no-repeat center;
-    background-size: contain;
-    height: 400px;
-    width: 400px;
-    margin-right: 10px;
+.skillsSpan {
+    font-weight: 700;
 }
 
-#feedingseattle {
-    background: url(../images/feedingseattle.jpg) no-repeat center;
-    background-size: contain;
-    height: 400px;
-    width: 400px;
-    margin-right: 10px;
+#skillsInnerDiv, #aboutInnerDiv, #experienceInnerDiv {
+    width: 95%;
+    margin: 0 auto;
 }
 
-#UTA {
-    background: url(../images/flag.jpg) no-repeat center;
-    background-size: contain;
-    height: 400px;
-    width: 400px;
-    margin-left: 10px;
+#footerDiv {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0 40px;
 }
 
-#TSinfo, #POinfo, #FSinfo {
-    margin-top: 90px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 1px solid white;
+.socialIconDiv {
+    display: inline-block;
 }
 
-#CRPinfo {
-    margin-top: 85px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 1px solid white;
+.socialIconDiv a {
+    color: black;
+    margin: 0 30px;
 }
 
-#UTAinfo {
-    margin-top: 76px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 1px solid white;
+.fa {
+    font-size: 30px;
+}
+
+#emailAddress {
+    padding-top: 20px;
+    font-family: Merriweather, serif !important;
+}
+
+#emailAddress a {
+    color: black;
 }

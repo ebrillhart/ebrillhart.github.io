@@ -1,4 +1,19 @@
 $(document).ready(function() {
+
+    var wrap = $("#fullPage");
+
+    wrap.on("scroll", function(e) {
+
+      if (this.scrollTop > 147) {
+        // wrap.addClass("fix-search");
+        $("#scrollNav").show();
+      } else {
+        // wrap.removeClass("fix-search");
+        $("scrollNav").hide();
+      }
+      
+    });
+
     $('.parallax').parallax();
     $('.modal-trigger').leanModal();
 
@@ -36,4 +51,5 @@ $(document).ready(function() {
     }, function () {
         $(this).find('#FSinfo').hide();
     });
+
 });
