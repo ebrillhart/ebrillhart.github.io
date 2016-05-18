@@ -66,7 +66,7 @@ html {
     font-family: Merriweather, serif !important;
 }
 
-#skillsDiv, #aboutDiv, #experienceDiv, #forMyself, #forOthers {
+#skillsDiv, #aboutDiv, #experienceDiv, #forMyself, #forOthers, #gugoInfoDiv {
     width: 60%;
     margin: 45px auto;
 }
@@ -77,6 +77,22 @@ html {
     width: 70%;
 }
 
+.webScreenShot {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+.mobileScreenShot {
+    width: 50%;
+    height: auto;
+    margin: 20px auto;
+}
+
+.mobileScreenShotCont {
+    text-align: center;
+}
+
 .skillsSpan {
     font-weight: 700;
 }
@@ -84,6 +100,11 @@ html {
 #skillsInnerDiv, #aboutInnerDiv, #experienceInnerDiv {
     width: 95%;
     margin: 0 auto;
+}
+
+.gugoInnerDiv {
+    width: 95%;
+    margin: 0 auto 40px;
 }
 
 #footerDiv {

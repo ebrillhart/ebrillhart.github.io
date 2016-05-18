@@ -6,16 +6,16 @@ $(document).ready(function() {
 function stickyHeader() {
     window.addEventListener('scroll', function(e){
         var distanceY = window.pageYOffset || document.documentElement.scrollTop;
-        var shrink = 75;
+        var shrink = 125;
 
         if (distanceY > shrink) {
-           $("#topNav").fadeOut(200);
+           // $("#topNav").fadeOut(200);
            $("#scrollNav").removeClass("hiddenClass");
-           $("#scrollNav").fadeIn(200);
+           $("#scrollNav").fadeIn(300);
         } else {
-           $("#topNav").fadeIn(200);
+           // $("#topNav").fadeIn(200);
            $("#scrollNav").addClass("hiddenClass");
-           $("#scrollNav").fadeOut(200);
+           $("#scrollNav").fadeOut(300);
         }
     });
 }
